@@ -14,7 +14,6 @@
 
 - - -
 
-
 Imagine que coloca este componente en cualquier escena que represente un proyectil en su videojuego, y estará listo para la acción. Proporciona funcionalidades comunes para proyectiles estándar.
 
 - [Requerimientos](#requerimientos)

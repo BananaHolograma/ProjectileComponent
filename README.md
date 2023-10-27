@@ -96,7 +96,7 @@ The **bounce times** parameter determines the number of times this projectile ca
 When this projectile starts to follow a target, the component checks if the target can be followed. This means:
 1. The target is not null.
 2. The homing distance to the target is less than the defined value.
-If these conditions are met, the homing behavior begins. Depending on the `homing_strength`, the projectile starts to follow the target smoothly.
+If these conditions are met, the homing behavior begins. Depending on the **`homing_strength`**, the projectile starts to follow the target smoothly.
 
 # Functions
 ## move(delta: float = get_physics_process_delta_time())

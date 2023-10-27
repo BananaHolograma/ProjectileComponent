@@ -50,8 +50,6 @@ var follow_target: bool = false:
 			else:
 				follow_stopped.emit(target)
 				
-		
-
 var penetration_count: int = 0:
 	set(value):
 		penetration_count += value
