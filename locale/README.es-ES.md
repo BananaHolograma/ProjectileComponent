@@ -15,11 +15,11 @@
 - - -
 
 Imagine que coloca este componente en cualquier escena que represente un proyectil en su videojuego, y estará listo para la acción. Proporciona funcionalidades comunes para proyectiles estándar.
-
 - [Requerimientos](#requerimientos)
 - [✨Instalacion](#instalacion)
 	- [Automatica (Recomendada)](#automatica-recomendada)
 	- [Manual](#manual)
+	- [CSharp version](#csharp-version)
 - [Como empezar](#como-empezar)
 - [Parámetros exportados](#parámetros-exportados)
 	- [Speed](#speed)
@@ -41,6 +41,7 @@ Imagine que coloca este componente en cualquier escena que represente un proyect
 - [🤝Normas de contribución](#normas-de-contribución)
 - [📇Contáctanos](#contáctanos)
 
+
 # Requerimientos
 📢 No ofrecemos soporte para Godot 3+ ya que nos enfocamos en las versiones futuras estables a partir de la versión 4.
 * Godot 4+
@@ -50,7 +51,8 @@ Imagine que coloca este componente en cualquier escena que represente un proyect
 Puedes descargar este plugin desde la [Godot asset library](https://godotengine.org/asset-library/asset/2039) oficial usando la pestaña AssetLib de tu editor Godot. Una vez instalado, estás listo para empezar
 ## Manual 
 Para instalar manualmente el plugin, crea una carpeta **"addons"** en la raíz de tu proyecto Godot y luego descarga el contenido de la carpeta **"addons"** de este repositorio
-
+## CSharp version
+Este plugin también ha sido escrito en CSharp y puedes encontrarlo en [ProjectileComponentCSharp](https://github.com/GodotParadise/ProjectileComponentCSharp)
 # Como empezar
 Este nodo funciona como los demás, sirviendo como hijo de otro nodo. En este caso, no está restringido sólo a `CharacterBody2D`, ya que las balas son típicamente nodos `Area2D`.
 
